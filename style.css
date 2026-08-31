@@ -102,7 +102,10 @@
      color: #6a11cb;
  }
 
-.project-link {
+.project-link,
+.project-link:visited,
+.project-link:hover,
+.project-link:active {
     text-decoration: none;
     color: inherit;
 }
