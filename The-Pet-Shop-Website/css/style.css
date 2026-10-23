@@ -168,10 +168,13 @@ img{
 
 /*this selector targets the video*/
 iframe{
-    display: table;
+    display: block;
     margin: auto;
     border-radius: 20px;
     border: none;
+    width: 100%;
+    max-width: 1280px;
+    aspect-ratio: 16 / 9;
 }
 
 #video{
